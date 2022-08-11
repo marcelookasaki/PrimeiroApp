@@ -45,11 +45,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Calcule a idade"/>
+                                <connections>
+                                    <action selector="calculaIdade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rUl-nv-n0n"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.25490196078431371" green="0.79607843137254897" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="labelResultado" destination="Dn0-jP-Vby" id="cqP-KX-rYJ"/>
+                        <outlet property="textIdadeDog" destination="UoP-Xq-RJa" id="3s4-dq-rIP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
