@@ -16,6 +16,7 @@
 		9CFB3E1628A447940087CE69 /* PrimeiroAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFB3E1528A447940087CE69 /* PrimeiroAppTests.swift */; };
 		9CFB3E2028A447940087CE69 /* PrimeiroAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFB3E1F28A447940087CE69 /* PrimeiroAppUITests.swift */; };
 		9CFB3E2228A447940087CE69 /* PrimeiroAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFB3E2128A447940087CE69 /* PrimeiroAppUITestsLaunchTests.swift */; };
+		9CFB3E2F28A545350087CE69 /* cachorro.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFB3E2E28A545350087CE69 /* cachorro.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9CFB3E1B28A447940087CE69 /* PrimeiroAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeiroAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CFB3E1F28A447940087CE69 /* PrimeiroAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeiroAppUITests.swift; sourceTree = "<group>"; };
 		9CFB3E2128A447940087CE69 /* PrimeiroAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeiroAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9CFB3E2E28A545350087CE69 /* cachorro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cachorro.png; path = "../../../../Downloads/imagens-app-idade-cachorro/cachorro.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				9CFB3E0228A447920087CE69 /* ViewController.swift */,
 				9CFB3E0428A447920087CE69 /* Main.storyboard */,
 				9CFB3E0728A447940087CE69 /* Assets.xcassets */,
+				9CFB3E2E28A545350087CE69 /* cachorro.png */,
 				9CFB3E0928A447940087CE69 /* LaunchScreen.storyboard */,
 				9CFB3E0C28A447940087CE69 /* Info.plist */,
 			);
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CFB3E2F28A545350087CE69 /* cachorro.png in Resources */,
 				9CFB3E0B28A447940087CE69 /* LaunchScreen.storyboard in Resources */,
 				9CFB3E0828A447940087CE69 /* Assets.xcassets in Resources */,
 				9CFB3E0628A447920087CE69 /* Main.storyboard in Resources */,
@@ -443,6 +447,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -471,6 +476,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
